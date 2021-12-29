@@ -1,0 +1,480 @@
+p {
+    all: unset;
+    color: white;
+    font-size: .9rem;
+    margin-left: .5rem;
+}
+
+a {
+    all: unset;
+    color: white;
+}
+
+h3 {
+    all: unset;
+}
+
+h4 {
+    all: unset;
+}
+
+.mobile-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.left {
+    width: 40%;
+}
+
+.right {
+    width: 44%
+}
+
+// Start of green footer styles
+.footer-container-green {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 12rem;
+    background-color: #076727;
+}
+
+.green-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60vw;
+    height: 8rem;
+}
+
+.green-row-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: inherit;
+    height: 4rem;
+}
+
+.green-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 2.75rem;
+    width: fit-content;
+}
+
+.green-column-end {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 2.75rem;
+}
+
+.green-row-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: inherit;
+    width: 60vw;
+}
+
+.support-item {
+    color: white;
+    width: fit-content;
+}
+
+.footer-link {
+    cursor: pointer;
+}
+
+// green row styles end
+
+
+// brown row styles start
+
+.footer-container-brown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 13rem;
+    background-color: #2e1e12;
+}
+
+.brown-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60vw;
+    height: 7rem;
+}
+
+.brown-row-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: inherit;
+    height: 4rem;
+}
+
+.brown-column-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    width: 25rem;
+}
+
+.brown-column-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    width: 8rem;
+}
+
+.brown-fs-slogan {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 2.75rem;
+    width: fit-content;
+    color: white;
+}
+
+.brown-row-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+    height: 1rem;
+}
+
+.social-icon {
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 951px) and (max-width: 1250px){
+    .green-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50rem;
+        height: 8rem;
+    }
+
+    .brown-column-left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: inherit;
+        width: 24rem;
+    }
+
+    .brown-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 54rem;
+        height: 7rem;
+    }
+
+    
+}
+
+@media screen and (min-width: 751px) and (max-width: 950px){
+    .green-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 40rem;
+        height: 8rem;
+    }
+
+    .brown-column-left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: inherit;
+        width: 24rem;
+    }
+
+    .brown-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 40rem;
+        height: 7rem;
+    }
+
+    .left {
+        width: 42%;
+    }
+    
+    .right {
+        width: 48%
+    }
+}
+
+@media screen and (min-width: 626px) and (max-width: 750px) {
+    .green-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 35rem;
+        height: 8rem;
+    }
+
+    .brown-column-left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: inherit;
+        width: 24rem;
+    }
+
+    .brown-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 37rem;
+        height: 7rem;
+    }
+
+    .fs-footer-logo {
+        height: 5rem;
+        width: 4rem;
+    }
+
+    .left {
+        width: 42%;
+    }
+    
+    .right {
+        width: 51.5%
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 625px) {
+    .green-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 23.5rem;
+        height: 9rem;
+    }
+
+    .green-row-top {
+        flex-direction: column;
+        height: 20rem;
+        align-items: flex-start;
+    }
+
+    .left {
+        width: 100%;
+    }
+    
+    .right {
+        width: 85%;
+    }
+
+    .brown-column-left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: inherit;
+        width: 24rem;
+    }
+
+    .brown-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 37rem;
+        height: 10rem;
+    }
+
+    .brown-row-top {
+        flex-direction: column;
+        height: 8rem;
+    }
+
+    .fs-footer-logo {
+        height: 5rem;
+        width: 4rem;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 549px) {
+    p {
+        all: unset;
+        color: white;
+        font-size: .75rem;
+        // margin-left: .5rem;
+    }
+
+    .footer-link {
+        font-size: .75rem;
+    }
+
+    .green-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 17rem;
+        height: 9rem;
+    }
+
+    .green-row-top {
+        flex-direction: column;
+        height: 20rem;
+        align-items: flex-start;
+    }
+
+    .left {
+        width: 100%;
+    }
+    
+    .right {
+        width: 85%;
+    }
+
+    .support-item {
+        font-size: .75rem;
+    }
+
+    .brown-column-left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: inherit;
+        width: 17rem;
+    }
+
+    .brown-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 37rem;
+        height: 10rem;
+    }
+
+    .brown-row-top {
+        flex-direction: column;
+        height: 8rem;
+    }
+
+    .fs-footer-logo {
+        height: 4rem;
+        width: 3rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    h4 {
+        font-size: .75rem;
+    }
+}
+
+@media screen and (min-width: 250px) and (max-width: 349px) {
+    p {
+        all: unset;
+        color: white;
+        font-size: .75rem;
+        // margin-left: .5rem;
+    }
+
+    .footer-link {
+        font-size: .75rem;
+    }
+
+    .green-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 16rem;
+        height: 9rem;
+    }
+
+    .green-row-top {
+        flex-direction: column;
+        height: 20rem;
+        align-items: flex-start;
+    }
+
+    .left {
+        width: 100%;
+    }
+    
+    .right {
+        width: 83%;
+    }
+
+    .support-item {
+        font-size: .75rem;
+    }
+
+    .brown-column-left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: inherit;
+        width: 16rem;
+    }
+
+    .brown-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 37rem;
+        height: 10rem;
+    }
+
+    .brown-row-top {
+        flex-direction: column;
+        height: 8rem;
+    }
+
+    .fs-footer-logo {
+        height: 4rem;
+        width: 3rem;
+    }
+
+    .brown-fs-slogan {
+        height: 2rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    h4 {
+        font-size: .75rem;
+    }
+}

@@ -1,0 +1,183 @@
+p {
+    all: unset;
+    color: white;
+    font-size: .9rem;
+    margin-left: .5rem;
+    font-family: sans-serif;
+}
+
+h3 {
+    all: unset;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+h5 {
+    all: unset;
+    
+}
+
+button {
+    all: unset;
+    color: #076727;
+    font-size: 1.1rem;
+    // font-weight: bold;
+    cursor: pointer;
+}
+
+.login-btn {
+    all: unset;
+    color: #076727;
+    font-size: 1.4rem;
+    // font-weight: bold;
+    cursor: pointer;
+}
+
+.header-text {
+    color: #076727;
+}
+
+#gov-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: 100vw;
+    background-color: #eeece5;
+}
+
+.usda-logo {
+    height: 7rem;
+    width: 6rem;
+}
+
+.fs-logo {
+    height: 5.5rem;
+    width: 8rem;
+}
+
+.fs-branding {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    height: fit-content;
+}
+
+#us-forest-service-logo {
+    display: flex;
+}
+
+.header-right-side-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.usa-logo {
+    flex: unset;
+    margin: unset;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 94vw;
+    height: fit-content;
+}
+
+.fs-slogan-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 4.5rem;
+    width: fit-content;
+}
+
+.beta-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #617273;
+    height: 1.1rem;
+    width: 2.9rem;
+    border-radius: .25rem;
+}
+
+.beta-label-text {
+    color: white;
+    font-size: .9rem;
+}
+
+@media screen and (min-width: 550px) and (max-width: 650px) {
+    .usda-logo {
+        height: 7rem;
+        width: 5rem;
+    }
+    
+    .fs-logo {
+        height: 4.5rem;
+        width: 6rem;
+    }
+
+    h3 {
+        all: unset;
+        font-size: 1.25rem;
+        font-weight: bolder;
+    }
+    
+    h5 {
+        all: unset;
+        font-size: .90rem;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 549px) {
+    .usda-logo {
+        height: 7rem;
+        width: 5rem;
+    }
+    
+    .fs-logo {
+        height: 4.5rem;
+        width: 6rem;
+    }
+
+    .header-text {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 250px) and (max-width: 349px) {
+    .usda-logo {
+        height: 7rem;
+        width: 5rem;
+    }
+    
+    .fs-logo {
+        height: 4.5rem;
+        width: 6rem;
+    }
+
+    .header-text {
+        display: none;
+    }
+
+    .beta-label-text {
+        font-size: .5rem;
+    }
+
+    .beta-label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #617273;
+        height: 1rem;
+        width: 1.8rem;
+        border-radius: 0.25rem;
+    }
+}
